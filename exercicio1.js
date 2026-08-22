@@ -12,7 +12,7 @@ function calcularTroco(){
     const numeroItens = quantidade.value
 
     if(dinheiroDado < precoValor * numeroItens){
-        alert("Dinheiro insuficiente! valor restante a pagar: " + precoValor * numeroItens - dinheiroDado)
+        alert(`Dinheiro insuficiente! valor restante a pagar: {(preco valor * numeroItens) - dinheiroDado}`)
     }else {
         const troco = dinheiroDado - (precoValor * numeroItens)
 
